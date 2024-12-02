@@ -83,34 +83,35 @@
 
 <!-- Collect the nav links, forms, and other content for toggling -->
 <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-    <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp" style="display: flex; list-style: none; padding: 0; margin: 0; direction: rtl; text-align: right;">
+    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp" style="display: flex; list-style: none; padding: 0; margin: 0;">
         <!-- First set of links -->
-        <li class="smooth-menu" style="font-family: 'Cairo', sans-serif; margin-left: 20px;">
+        <li class="smooth-menu" style="font-family: 'Cairo', sans-serif; margin-right: 20px;">
             <a href="#about">تعريف المرض</a>
         </li>
-        <li class="smooth-menu" style="font-family: 'Cairo', sans-serif; margin-left: 20px;">
+        <li class="smooth-menu" style="font-family: 'Cairo', sans-serif; margin-right: 20px;">
             <a href="#education">اسباب المرض</a>
         </li>
-        <li class="smooth-menu" style="font-family: 'Cairo', sans-serif; margin-left: 20px;">
+        <li class="smooth-menu" style="font-family: 'Cairo', sans-serif; margin-right: 20px;">
             <a href="#skills">اعراض المرض</a>
         </li>
 
         <!-- Second set of links -->
-        <li class="smooth-menu" style="font-family: 'Cairo', sans-serif; margin-left: 20px;">
+        <li class="smooth-menu" style="font-family: 'Cairo', sans-serif; margin-right: 20px;">
             <a href="#treatment">طرق العلاج والوقايه</a>
         </li>
 
-        <li class="smooth-menu" style="font-family: 'Cairo', sans-serif; margin-left: 20px;">
+       
+       
+        <li class="smooth-menu" style="font-family: 'Cairo', sans-serif;">
             <a href="#contact">اتصال</a>
         </li>
     </ul>
 </div><!-- /.navbar-collapse -->
 
-<div class="clearfix"></div>
+		    <div class="clearfix"></div>
 
-</header><!-- /.top-area-->
-<!-- top-area End -->
-
+		</header><!-- /.top-area-->
+		<!-- top-area End -->
 	
 		<!--welcome-hero start -->
 <!-- Link to Google Fonts -->
@@ -143,10 +144,9 @@
         text-decoration: underline;
     }
 </style>
-
-<section id="welcome-hero" class="welcome-hero" style="padding: 20px; background-image: url('image1.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+<section id="welcome-hero" class="welcome-hero" style="padding: 20px; background-color: black; background-image: url('image1.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100vh; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
     <!-- Header Text Section -->
-    <div class="container">
+    <div class="container" style="height: 100%; display: flex; align-items: center; justify-content: center;">
         <div class="row">
             <div class="col-md-12 text-center">
                 <div class="header-text" style="background-color: rgba(255, 255, 255, 0.6); padding: 20px; border-radius: 10px;">
@@ -175,9 +175,9 @@
 <script>
     // Array of image URLs
     const images = [
-        'image1.jpeg', // Image 1
-        'image2.avif', // Image 2
-        'image3.avif'  // Image 3
+        'image1.jpg', // Image 1
+        'image2.jpg', // Image 2
+        'image3.jpg'  // Image 3
     ];
 
     let currentImageIndex = 0; // Start with the first image
@@ -192,10 +192,6 @@
     // Change the background image every 5 seconds
     setInterval(changeBackgroundImage, 5000);
 </script>
-
-
-<!--welcome-hero end-->
-
 
 
 		<!--about start -->
@@ -424,7 +420,7 @@
                     <div class="col-md-4 text-center">
                         <div style="margin-bottom: 20px;">
                             <!-- Custom Image for Bronchodilators 1 -->
-                            <img src="covid-concept-with-red-lungs-top-view.jpg" alt="bronchodilator" style="width: 120px; height: 120px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                            <img src="P1.jpg" alt="bronchodilator" style="width: 120px; height: 120px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
                         </div>
                         <h4 style="font-family: 'Tajawal', sans-serif; font-weight: bold; color: #0066cc; font-size: 30px;">موسع القصبات الهوائية 1</h4>
                         <p style="font-family: 'Tajawal', sans-serif; font-size: 18px; color: #333; text-align: center;">
@@ -438,7 +434,7 @@
                     <div class="col-md-4 text-center">
                         <div style="margin-bottom: 20px;">
                             <!-- Custom Image for Bronchodilators 2 -->
-                            <img src="close-up-elderly-man-holding-asthma-inhaler.jpg" alt="bronchodilator" style="width: 120px; height: 120px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                            <img src="P2.jpg" alt="bronchodilator" style="width: 120px; height: 120px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
                         </div>
                         <h4 style="font-family: 'Tajawal', sans-serif; font-weight: bold; color: #0066cc; font-size: 30px;">موسع القصبات الهوائية 2</h4>
                         <p style="font-family: 'Tajawal', sans-serif; font-size: 18px; color: #333; text-align: center;">
@@ -471,7 +467,7 @@
                     <div class="col-md-4 text-center">
                         <div style="margin-bottom: 20px;">
                             <!-- Custom Image for Antibiotics -->
-                            <img src="pills1.jpg" alt="antibiotics" style="width: 120px; height: 120px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                            <img src="P3.jpg" alt="antibiotics" style="width: 120px; height: 120px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
                         </div>
                         <h4 style="font-family: 'Tajawal', sans-serif; font-weight: bold; color: #0066cc; font-size: 30px;">المضادات الحيوية</h4>
                         <p style="font-family: 'Tajawal', sans-serif; font-size: 18px; color: #333; text-align: center;">
@@ -485,7 +481,7 @@
                     <div class="col-md-4 text-center">
                         <div style="margin-bottom: 20px;">
                             <!-- Custom Image for Preventive Vaccines -->
-                            <img src="hand-with-syringe-bacteria-virus.jpg" alt="vaccines" style="width: 120px; height: 120px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                            <img src="P4.jpg" alt="vaccines" style="width: 120px; height: 120px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
                         </div>
                         <h4 style="font-family: 'Tajawal', sans-serif; font-weight: bold; color: #0066cc; font-size: 30px;">اللقاحات الوقائية</h4>
                         <p style="font-family: 'Tajawal', sans-serif; font-size: 18px; color: #333; text-align: center;">
