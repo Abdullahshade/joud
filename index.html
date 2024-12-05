@@ -58,32 +58,31 @@
     </head>
 
 	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+	<!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
 
-		<!-- top-area Start -->
-		<header class="top-area">
-			<div class="header-area">
-				<!-- Start Navigation -->
-			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+<!-- top-area Start -->
+<header class="top-area">
+    <div class="header-area">
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+            <div class="container">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <!-- Replace text with logo -->
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo.png" alt="Logo" style="max-height: 50px;"> <!-- Adjust the file path and size as needed -->
+                    </a>
+                </div><!--/.navbar-header-->
+                <!-- End Header Navigation -->
 
-			        <div class="container">
-<!-- Start Header Navigation -->
-<div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-        <i class="fa fa-bars"></i>
-    </button>
-    <!-- Replace text with logo -->
-    <a class="navbar-brand" href="index.html">
-        <img src="assets/images/logo.png" alt="Logo" style="max-height: 50px;"> <!-- Adjust the file path and size as needed -->
-    </a>
-</div><!--/.navbar-header-->
-<!-- End Header Navigation -->
-
-<!-- Collect the nav links, forms, and other content for toggling -->
-<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp" style="display: flex; list-style: none; padding: 0; margin: 0;">
+                <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+    <ul class="nav navbar-nav navbar-right" dir="rtl" data-in="fadeInDown" data-out="fadeOutUp" style="display: flex; list-style: none; padding: 0; margin: 0;">
         <!-- First set of links -->
         <li class="smooth-menu" style="font-family: 'Cairo', sans-serif; margin-right: 20px;">
             <a href="#about">تعريف المرض</a>
@@ -97,12 +96,14 @@
 
         <!-- Second set of links -->
         <li class="smooth-menu" style="font-family: 'Cairo', sans-serif; margin-right: 20px;">
-            <a href="#treatment">طرق العلاج والوقايه</a>
+            <a href="#treatment">كيف تسيطر على اعراضك</a>
         </li>
-<li class="smooth-menu" style="font-family: 'Cairo', sans-serif; margin-right: 20px;">
+        <li class="smooth-menu" style="font-family: 'Cairo', sans-serif; margin-right: 20px;">
             <a href="#Scale">قم بالتقييم</a>
         </li>
-
+        <li class="smooth-menu" style="font-family: 'Cairo', sans-serif; margin-right: 20px;">
+            <a href="#videos">فيدوهات تعليمية</a>
+        </li>
 
         <li class="smooth-menu" style="font-family: 'Cairo', sans-serif;">
             <a href="#contact">اتصال</a>
@@ -110,10 +111,12 @@
     </ul>
 </div><!-- /.navbar-collapse -->
 
-		    <div class="clearfix"></div>
+                <div class="clearfix"></div>
+            </div><!-- /.container -->
+        </nav><!-- /.navbar -->
+    </div><!-- /.header-area -->
+</header><!-- /.top-area -->
 
-		</header><!-- /.top-area-->
-		<!-- top-area End -->
 
 		<!--welcome-hero start -->
 <!-- Link to Google Fonts -->
@@ -235,137 +238,55 @@
 </section>
 
 
-
-<!--education start -->
+<!-- Education Section (Responsive) -->
 <section id="education" class="education" style="padding: 40px; background-image: url('smoking.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); font-family: 'Tajawal', sans-serif; color: #000; direction: rtl;">
     <div class="section-heading text-center" style="margin-bottom: 40px;">
         <h2 style="font-size: 36px; color: #000; font-weight: bold;">ما هي اسباب ظهور مرض الانسداد الرئوي COPD؟</h2>
     </div>
     <div class="container">
-        <div class="row" style="display: flex; justify-content: space-between;">
+        <div class="row">
             <!-- Point 1: Smoking -->
-            <div class="col-sm-3" style="flex: 1; margin-bottom: 30px;">
-                <div class="single-horizontal-timeline" style="background-color: rgba(209, 38, 38, 0.7); padding: 20px; border-radius: 10px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
-                    <div class="experience-time">
-                        <h2 style="font-size: 30px; color: #fff; text-align: right; font-family: 'Tajawal', sans-serif; font-weight: bold;"> التدخين</h2>
-                    </div>
-                    <div class="timeline-horizontal-border">
-                        <i class="fa fa-circle" aria-hidden="true"></i>
-                        <span class="single-timeline-horizontal"></span>
-                    </div>
-                    <div class="timeline">
-                        <div class="timeline-content" style="color: #000; text-align: right;">
-                            <p class="description" style="font-size: 18px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: bold; color: #000;">
-                                وفقا للجمعية الامريكية للرئة, التدخين هو المسبب الرئيسي لمرض الانسداد الرئوي المزمنCOPD. ما يصل الى%75 من حالات التدخين المباشر و الغير مباشر يعانون من المرض. حيث ان المواد الكيميائية التي تحتوي السجائر مثل التبغ تضر بالاكياس الهوائية و القصبات الهوائية للرئتين.
-                            </p>
-                        </div>
-                    </div>
+            <div class="col-lg-3 col-md-6 col-sm-12" style="margin-bottom: 30px;">
+                <div class="single-horizontal-timeline" style="background-color: rgba(209, 38, 38, 0.7); padding: 20px; border-radius: 10px; height: 100%;">
+                    <h2 style="font-size: 30px; color: #fff; text-align: right; font-family: 'Tajawal', sans-serif; font-weight: bold;"> التدخين</h2>
+                    <p style="font-size: 18px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: bold; color: #000; text-align: right;">
+                        وفقا للجمعية الامريكية للرئة, التدخين هو المسبب الرئيسي لمرض الانسداد الرئوي المزمنCOPD. ما يصل الى%75 من حالات التدخين المباشر و الغير مباشر يعانون من المرض. حيث ان المواد الكيميائية التي تحتوي السجائر مثل التبغ تضر بالاكياس الهوائية و القصبات الهوائية للرئتين.
+                    </p>
                 </div>
             </div>
 
             <!-- Point 2: Occupational and Environmental Exposure -->
-            <div class="col-sm-3" style="flex: 1; margin-bottom: 30px;">
-                <div class="single-horizontal-timeline" style="background-color: rgba(209, 38, 38, 0.7); padding: 20px; border-radius: 10px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
-                    <div class="experience-time">
-                        <h2 style="font-size: 30px; color: #fff; text-align: right; font-family: 'Tajawal', sans-serif; font-weight: bold;"> التعرض المهني و الطبيعي</h2>
-                    </div>
-                    <div class="timeline-horizontal-border">
-                        <i class="fa fa-circle" aria-hidden="true"></i>
-                        <span class="single-timeline-horizontal"></span>
-                    </div>
-                    <div class="timeline">
-                        <div class="timeline-content" style="color: #000; text-align: right;">
-                            <p class="description" style="font-size: 18px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: bold; color: #000;">
-                                منظمة الصحة العالمية WHO تؤكد ان استنشاق ملوثات الهواء مثل الغبار الصناعي و المواد الكيميائية يزيد من خطر الاصابة بالمرض. كما ان التعرض طويل الامد للتلوث الخارجي او الداخلي مثل (دخان الطهي, التدفئة باستخدام الوقود الصلب كالتدفئة بالحطب) هو عامل اخر.
-                            </p>
-                        </div>
-                    </div>
+            <div class="col-lg-3 col-md-6 col-sm-12" style="margin-bottom: 30px;">
+                <div class="single-horizontal-timeline" style="background-color: rgba(209, 38, 38, 0.7); padding: 20px; border-radius: 10px; height: 100%;">
+                    <h2 style="font-size: 30px; color: #fff; text-align: right; font-family: 'Tajawal', sans-serif; font-weight: bold;"> التعرض المهني و الطبيعي</h2>
+                    <p style="font-size: 18px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: bold; color: #000; text-align: right;">
+                        منظمة الصحة العالمية WHO تؤكد ان استنشاق ملوثات الهواء مثل الغبار الصناعي و المواد الكيميائية يزيد من خطر الاصابة بالمرض. كما ان التعرض طويل الامد للتلوث الخارجي او الداخلي مثل (دخان الطهي, التدفئة باستخدام الوقود الصلب كالتدفئة بالحطب) هو عامل اخر.
+                    </p>
                 </div>
             </div>
 
             <!-- Point 3: Respiratory Infections -->
-            <div class="col-sm-3" style="flex: 1; margin-bottom: 30px;">
-                <div class="single-horizontal-timeline" style="background-color: rgba(209, 38, 38, 0.7); padding: 20px; border-radius: 10px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
-                    <div class="experience-time">
-                        <h2 style="font-size: 30px; color: #fff; text-align: right; font-family: 'Tajawal', sans-serif; font-weight: bold;"> التهابات الجهاز التنفسي المتكررة</h2>
-                    </div>
-                    <div class="timeline-horizontal-border">
-                        <i class="fa fa-circle" aria-hidden="true"></i>
-                        <span class="single-timeline-horizontal"></span>
-                    </div>
-                    <div class="timeline">
-                        <div class="timeline-content" style="color: #000; text-align: right;">
-                            <p class="description" style="font-size: 18px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: bold; color: #000;">
-                                بحسب مؤسسة الرئة البريطانية، التعرض المتكرر للالتهابات في الجهاز التنفسي أثناء الطفولة يمكن أن يضعف الرئتين ويزيد من خطر الإصابة بالمرض في المستقبل.
-                            </p>
-                        </div>
-                    </div>
+            <div class="col-lg-3 col-md-6 col-sm-12" style="margin-bottom: 30px;">
+                <div class="single-horizontal-timeline" style="background-color: rgba(209, 38, 38, 0.7); padding: 20px; border-radius: 10px; height: 100%;">
+                    <h2 style="font-size: 30px; color: #fff; text-align: right; font-family: 'Tajawal', sans-serif; font-weight: bold;"> التهابات الجهاز التنفسي المتكررة</h2>
+                    <p style="font-size: 18px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: bold; color: #000; text-align: right;">
+                        بحسب مؤسسة الرئة البريطانية، التعرض المتكرر للالتهابات في الجهاز التنفسي أثناء الطفولة يمكن أن يضعف الرئتين ويزيد من خطر الإصابة بالمرض في المستقبل.
+                    </p>
                 </div>
             </div>
 
             <!-- Point 4: Genetic Factors -->
-            <div class="col-sm-3" style="flex: 1; margin-bottom: 30px;">
-                <div class="single-horizontal-timeline" style="background-color: rgba(209, 38, 38, 0.7); padding: 20px; border-radius: 10px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
-                    <div class="experience-time">
-                        <h2 style="font-size: 30px; color: #fff; text-align: right; font-family: 'Tajawal', sans-serif; font-weight: bold;"> عوامل وراثية</h2>
-                    </div>
-                    <div class="timeline-horizontal-border">
-                        <i class="fa fa-circle" aria-hidden="true"></i>
-                        <span class="single-timeline-horizontal"></span>
-                    </div>
-                    <div class="timeline">
-                        <div class="timeline-content" style="color: #000; text-align: right;">
-                            <p class="description" style="font-size: 18px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: bold; color: #000;">
-                                نقص بروتين ألفا-1 انتيتريبسين هو حالة وراثية نادرة، كما تذكر الجمعية الأمريكية لأمراض الصدر، تجعل الشخص أكثر عرضة للإصابة بمرض الانسداد الرئوي المزمن. هذا النقص في البروتين يمكن أن يؤدي إلى تلف الرئتين.
-                            </p>
-                        </div>
-                    </div>
+            <div class="col-lg-3 col-md-6 col-sm-12" style="margin-bottom: 30px;">
+                <div class="single-horizontal-timeline" style="background-color: rgba(209, 38, 38, 0.7); padding: 20px; border-radius: 10px; height: 100%;">
+                    <h2 style="font-size: 30px; color: #fff; text-align: right; font-family: 'Tajawal', sans-serif; font-weight: bold;"> عوامل وراثية</h2>
+                    <p style="font-size: 18px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: bold; color: #000; text-align: right;">
+                        نقص بروتين ألفا-1 انتيتريبسين هو حالة وراثية نادرة، كما تذكر الجمعية الأمريكية لأمراض الصدر، تجعل الشخص أكثر عرضة للإصابة بمرض الانسداد الرئوي المزمن. هذا النقص في البروتين يمكن أن يؤدي إلى تلف الرئتين.
+                    </p>
                 </div>
             </div>
-
         </div><!--/.row-->
     </div><!--/.container-->
 </section><!--/.education-->
-<!--education end -->
-<!-- Borg Scale Section -->
-<section id="borg-scale-section" style="direction: rtl; padding: 20px; background-color: #f4f4f4; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <div class="section-content" style="display: flex; align-items: center; justify-content: space-between;"  id="Scale" class="Scale" >
-
-        <!-- Image Section -->
-        <div class="section-image" style="flex: 1; text-align: center; margin-right: 20px;">
-            <img src="Rate.jpg" alt="Borg Scale Image" style="max-width: 80%; height: auto; border-radius: 15px;">
-        </div>
-
-        <!-- Text Section -->
-        <div class="section-text" style="flex: 2; text-align: right; padding: 10px;">
-            <h2 class="section-heading" style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #D12626; font-size: 30px; margin-bottom: 20px;">قيم نفسك</h2>
-
-            <p style="font-family: 'Tajawal', sans-serif; font-size: 18px; color: #333; line-height: 1.8; text-align: right;">
-                اليك بعض الوسائل التي ستساعدك في تقييم شدة الأعراض التي تشعر بها:
-            </p>
-
-            <p style="font-family: 'Tajawal', sans-serif; font-size: 18px; color: #333; line-height: 1.8; text-align: right;">
-                مقياس بورغ لضيق التنفس (Borg Scale for Dyspnea) هو مقياس يستخدم لتقييم شدة ضيق التنفس الذي يشعر به الشخص، خاصةً أثناء التمارين أو الأنشطة البدنية. يعتمد هذا المقياس على شعور المريض الذاتي، حيث يُطلب منه تصنيف شدة ضيق التنفس على مقياس يتراوح عادةً بين 0 إلى 10:
-            </p>
-
-            <ul class="content-list" style="list-style-type: none; padding: 0; text-align: right; font-family: 'Tajawal', sans-serif; font-size: 18px; color: #333; line-height: 1.8;">
-                <li><b>0:</b> لا يوجد ضيق تنفس على الإطلاق (راحة تامة).</li>
-                <li><b>0.5:</b> ضيق تنفس طفيف جدًا (ملحوظ بالكاد).</li>
-                <li><b>1:</b> ضيق تنفس خفيف جدًا.</li>
-                <li><b>2:</b> ضيق تنفس خفيف.</li>
-                <li><b>3:</b> ضيق تنفس متوسط.</li>
-                <li><b>4:</b> ضيق تنفس متوسط الشدة.</li>
-                <li><b>5:</b> ضيق تنفس شديد نوعًا ما.</li>
-                <li><b>6:</b> ضيق تنفس شديد.</li>
-                <li><b>7-8:</b> ضيق تنفس شديد جدًا.</li>
-                <li><b>9:</b> ضيق تنفس أقصى يمكن تحمله تقريبًا.</li>
-                <li><b>10:</b> ضيق تنفس شديد للغاية (لا يحتمل).</li>
-            </ul>
-
-
-        </div>
-    </div>
-</section>
 
 
 
@@ -465,6 +386,45 @@
 
 
 
+
+<section id="borg-scale-section" style="direction: rtl; padding: 20px; background-color: #f4f4f4; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <div class="section-content" style="display: flex; align-items: center; justify-content: space-between;"  id="Scale" class="Scale" >
+
+        <!-- Image Section -->
+        <div class="section-image" style="flex: 1; text-align: center; margin-right: 20px;">
+            <img src="Rate.jpg" alt="Borg Scale Image" style="max-width: 80%; height: auto; border-radius: 15px;">
+        </div>
+
+        <!-- Text Section -->
+        <div class="section-text" style="flex: 2; text-align: right; padding: 10px;">
+            <h2 class="section-heading" style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #D12626; font-size: 30px; margin-bottom: 20px;">قيم نفسك</h2>
+
+            <p style="font-family: 'Tajawal', sans-serif; font-size: 18px; color: #333; line-height: 1.8; text-align: right;">
+                اليك بعض الوسائل التي ستساعدك في تقييم شدة الأعراض التي تشعر بها:
+            </p>
+
+            <p style="font-family: 'Tajawal', sans-serif; font-size: 18px; color: #333; line-height: 1.8; text-align: right;">
+                مقياس بورغ لضيق التنفس (Borg Scale for Dyspnea) هو مقياس يستخدم لتقييم شدة ضيق التنفس الذي يشعر به الشخص، خاصةً أثناء التمارين أو الأنشطة البدنية. يعتمد هذا المقياس على شعور المريض الذاتي، حيث يُطلب منه تصنيف شدة ضيق التنفس على مقياس يتراوح عادةً بين 0 إلى 10:
+            </p>
+
+            <ul class="content-list" style="list-style-type: none; padding: 0; text-align: right; font-family: 'Tajawal', sans-serif; font-size: 18px; color: #333; line-height: 1.8;">
+                <li><b>0:</b> لا يوجد ضيق تنفس على الإطلاق (راحة تامة).</li>
+                <li><b>0.5:</b> ضيق تنفس طفيف جدًا (ملحوظ بالكاد).</li>
+                <li><b>1:</b> ضيق تنفس خفيف جدًا.</li>
+                <li><b>2:</b> ضيق تنفس خفيف.</li>
+                <li><b>3:</b> ضيق تنفس متوسط.</li>
+                <li><b>4:</b> ضيق تنفس متوسط الشدة.</li>
+                <li><b>5:</b> ضيق تنفس شديد نوعًا ما.</li>
+                <li><b>6:</b> ضيق تنفس شديد.</li>
+                <li><b>7-8:</b> ضيق تنفس شديد جدًا.</li>
+                <li><b>9:</b> ضيق تنفس أقصى يمكن تحمله تقريبًا.</li>
+                <li><b>10:</b> ضيق تنفس شديد للغاية (لا يحتمل).</li>
+            </ul>
+
+
+        </div>
+    </div>
+</section>
 
 <!--treatment start -->
 <section id="treatment" class="experience">
@@ -638,65 +598,59 @@
         </div>
     </div>
 </section>
-
-        <!-- Skills Section -->
-<section id="skills" class="skills">
-    <div class="skill-content">
-        <div class="section-heading text-center">
-            <h2 style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #333; font-size: 40px; direction: rtl;">الصحة النفسية وأهميتها لمرضى الانسداد الرئوي المزمن</h2>
+<!-- Mental Health Importance Section -->
+<section id="skills" class="skills" style="direction: rtl; padding: 20px; background-color: #f9f9f9; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 30px; font-family: 'Tajawal', sans-serif;">
+    <div class="container" style="display: flex; flex-wrap: wrap; align-items: center;">
+        <!-- Text Section (moved above image) -->
+        <div class="col-md-12" style="padding: 15px; text-align: center;">
+            <!-- Heading -->
+            <div class="section-heading">
+                <h2 style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #333; font-size: 40px;">الصحة النفسية وأهميتها لمرضى الانسداد الرئوي المزمن</h2>
+            </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="single-skill-content" style="padding: 20px; background-color: rgba(240, 240, 240, 0.9); border-radius: 10px; margin-bottom: 20px;">
-                        <h3 style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #D12626; font-size: 30px; text-align: right;">برامج التأهيل الرئوي</h3>
-                        <p style="font-family: 'Tajawal', sans-serif; font-size: 20px; color: #333; text-align: right;">
-                            تجمع بين التمارين الرياضية، الدعم النفسي، وتقنيات الاسترخاء. ثبت أنها تقلل من القلق والاكتئاب وتُحسن من جودة الحياة للمرضى.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="single-skill-content" style="padding: 20px; background-color: rgba(240, 240, 240, 0.9); border-radius: 10px; margin-bottom: 20px;">
-                        <h3 style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #D12626; font-size: 30px; text-align: right;">العلاج السلوكي المعرفي (CBT)</h3>
-                        <p style="font-family: 'Tajawal', sans-serif; font-size: 20px; color: #333; text-align: right;">
-                            طريقة فعّالة تساعد المرضى على فهم وإدارة أفكارهم ومشاعرهم بشكل أفضل، مما يساهم في تحسين حالتهم النفسية والتكيف مع المرض.
-                        </p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="single-skill-content" style="padding: 20px; background-color: rgba(240, 240, 240, 0.9); border-radius: 10px; margin-bottom: 20px;">
-                        <h3 style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #D12626; font-size: 30px; text-align: right;">تقنيات الاسترخاء</h3>
-                        <p style="font-family: 'Tajawal', sans-serif; font-size: 20px; color: #333; text-align: right;">
-                            ممارسة تقنيات الاسترخاء مثل التأمل والتنفس العميق تساعد في تقليل التوتر وتحسين الوظائف التنفسية.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="single-skill-content" style="padding: 20px; background-color: rgba(240, 240, 240, 0.9); border-radius: 10px; margin-bottom: 20px;">
-                        <h3 style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #D12626; font-size: 30px; text-align: right;">الانخراط في الأنشطة الاجتماعية</h3>
-                        <p style="font-family: 'Tajawal', sans-serif; font-size: 20px; color: #333; text-align: right;">
-                            حتى لو كانت الأنشطة محدودة بسبب المرض، فإن المشاركة في الأنشطة الاجتماعية البسيطة يمكن أن تحسن الحالة النفسية.
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <!-- Image Section (made a little smaller) -->
+        <div class="col-md-5" style="text-align: center; padding: 20px;">
+            <img src="iii3333.png" alt="Mental Health Importance for COPD Patients" style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+        </div>
 
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="single-skill-content" style="padding: 20px; background-color: rgba(240, 240, 240, 0.9); border-radius: 10px; margin-bottom: 20px;">
-                        <h3 style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #D12626; font-size: 30px; text-align: right;">التمارين الرياضية المعتدلة</h3>
-                        <p style="font-family: 'Tajawal', sans-serif; font-size: 20px; color: #333; text-align: right;">
-                            ممارسة التمارين البدنية مثل المشي أو السباحة بشكل منتظم يمكن أن تساهم في تحسين الصحة النفسية والجسدية.
-                        </p>
-                    </div>
+        <!-- Content Section -->
+        <div class="col-md-7" style="padding: 15px;">
+            <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+                <!-- Programs for Pulmonary Rehabilitation -->
+                <div class="single-skill-content" style="flex: 1 1 calc(50% - 10px); padding: 20px; background-color: rgba(240, 240, 240, 0.9); border-radius: 10px;">
+                    <h3 style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #D12626; font-size: 30px;">برامج التأهيل الرئوي</h3>
+                    <p style="font-family: 'Tajawal', sans-serif; font-size: 20px; color: #333;">تجمع بين التمارين الرياضية، الدعم النفسي، وتقنيات الاسترخاء. ثبت أنها تقلل من القلق والاكتئاب وتُحسن من جودة الحياة للمرضى.</p>
+                </div>
+
+                <!-- CBT -->
+                <div class="single-skill-content" style="flex: 1 1 calc(50% - 10px); padding: 20px; background-color: rgba(240, 240, 240, 0.9); border-radius: 10px;">
+                    <h3 style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #D12626; font-size: 30px;">العلاج السلوكي المعرفي (CBT)</h3>
+                    <p style="font-family: 'Tajawal', sans-serif; font-size: 20px; color: #333;">طريقة فعّالة تساعد المرضى على فهم وإدارة أفكارهم ومشاعرهم بشكل أفضل، مما يساهم في تحسين حالتهم النفسية والتكيف مع المرض.</p>
+                </div>
+
+                <!-- Relaxation Techniques -->
+                <div class="single-skill-content" style="flex: 1 1 calc(50% - 10px); padding: 20px; background-color: rgba(240, 240, 240, 0.9); border-radius: 10px;">
+                    <h3 style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #D12626; font-size: 30px;">تقنيات الاسترخاء</h3>
+                    <p style="font-family: 'Tajawal', sans-serif; font-size: 20px; color: #333;">ممارسة تقنيات الاسترخاء مثل التأمل والتنفس العميق تساعد في تقليل التوتر وتحسين الوظائف التنفسية.</p>
+                </div>
+
+                <!-- Social Activities -->
+                <div class="single-skill-content" style="flex: 1 1 calc(50% - 10px); padding: 20px; background-color: rgba(240, 240, 240, 0.9); border-radius: 10px;">
+                    <h3 style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #D12626; font-size: 30px;">الانخراط في الأنشطة الاجتماعية</h3>
+                    <p style="font-family: 'Tajawal', sans-serif; font-size: 20px; color: #333;">حتى لو كانت الأنشطة محدودة بسبب المرض، فإن المشاركة في الأنشطة الاجتماعية البسيطة يمكن أن تحسن الحالة النفسية.</p>
+                </div>
+
+                <!-- Moderate Physical Exercise -->
+                <div class="single-skill-content" style="flex: 1 1 calc(50% - 10px); padding: 20px; background-color: rgba(240, 240, 240, 0.9); border-radius: 10px;">
+                    <h3 style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #D12626; font-size: 30px;">التمارين الرياضية المعتدلة</h3>
+                    <p style="font-family: 'Tajawal', sans-serif; font-size: 20px; color: #333;">ممارسة التمارين البدنية مثل المشي أو السباحة بشكل منتظم يمكن أن تساهم في تحسين الصحة النفسية والجسدية.</p>
                 </div>
             </div>
-        </div><!-- /.container -->
-    </div><!-- /.skill-content-->
-</section><!-- /.skills -->
+        </div>
+    </div>
+</section>
+
 
 <!-- Third Section: Conclusion or Call to Action -->
 <!-- Third Section: Conclusion or Call to Action -->
@@ -738,6 +692,103 @@
 <!-- Story Section -->
 <!-- Story Section with Background -->
 <!-- Story Section with Background Image -->
+
+<!-- Main Section -->
+<section style="direction: rtl; padding: 20px; font-family: 'Tajawal', sans-serif; text-align: right;">
+    <h1 style="font-size: 32px; font-weight: bold; color: #D12626; text-align: center; margin-bottom: 30px;">
+        تمارين التنفس
+    </h1>
+    <p style="font-size: 20px; color: #333; text-align: center; margin-bottom: 40px;">
+        إليك بعض التمارين التي ستخفف الأعراض لديك وتحسن جودة التنفس
+    </p>
+
+    <!-- Container for Breathing Exercises -->
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; align-items: flex-start; margin-bottom: 30px;">
+
+        <!-- Pursed Lips Breathing Section -->
+        <section id="pursed-lips-breathing" style="flex: 1; min-width: 300px; max-width: 400px; padding: 20px; background-color: #f4f4f4; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: right;">
+            <div class="section-content">
+                <!-- Image Section -->
+                <div class="section-image" style="text-align: center; margin-bottom: 10px;">
+                    <img src="ii1.jpg" alt="Pursed Lips Breathing Technique" style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                </div>
+
+                <!-- Text Section -->
+                <div class="section-text">
+                    <h2 style="font-size: 28px; font-weight: bold; color: #D12626; margin-bottom: 15px;">تقنية التنفس باستخدام "الشفاه المضمومة" (Pursed Lips Breathing)</h2>
+                    <h3 style="font-size: 22px; color: #333; margin-bottom: 10px;">كيفية القيام بتقنية التنفس بالشفاه المضمومة:</h3>
+                    <ul style="list-style-type: decimal; padding-right: 20px; line-height: 1.8; font-size: 18px; color: #333;">
+                        <li>استرخِ وخذ نفسًا عميقًا من خلال الأنف ببطء.</li>
+                        <li>أضم شفتيك وكأنك ستنفخ شيئًا أو تصفر.</li>
+                        <li>زفر الهواء ببطء من خلال الشفاه المضمومة، مع إخراج الزفير بشكل أطول من الشهيق.</li>
+                    </ul>
+                    <h3 style="font-size: 22px; color: #333; margin-top: 20px; margin-bottom: 10px;">فوائد التقنية:</h3>
+                    <ul style="list-style-type: disc; padding-right: 20px; line-height: 1.8; font-size: 18px; color: #333;">
+                        <li>تساعد على تحسين تبادل الأكسجين وثاني أكسيد الكربون.</li>
+                        <li>تقلل من ضيق التنفس.</li>
+                        <li>تجعل التنفس أكثر كفاءة وسهولة.</li>
+                    </ul>
+                    <div style="text-align: center; margin-top: 20px;">
+                        <a href="#videos" style="font-size: 18px; font-weight: bold; color: #fff; background-color: #D12626; padding: 10px 20px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">اضغط هنا لرؤية التقنية</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diaphragmatic Breathing Section -->
+        <section id="diaphragmatic-breathing" style="flex: 1; min-width: 300px; max-width: 400px; padding: 20px; background-color: #f4f4f4; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: right;">
+            <div class="section-content">
+                <!-- Image Section -->
+                <div class="section-image" style="text-align: center; margin-bottom: 10px;">
+                    <img src="ii2.jpg" alt="Diaphragmatic Breathing Technique" style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                </div>
+
+                <!-- Text Section -->
+                <div class="section-text">
+                    <h2 style="font-size: 28px; font-weight: bold; color: #D12626; margin-bottom: 15px;">تقنية التنفس الحجابي (Diaphragmatic Breathing)</h2>
+                    <h3 style="font-size: 22px; color: #333; margin-bottom: 10px;">كيفية أداء التنفس الحجابي:</h3>
+                    <ul style="list-style-type: decimal; padding-right: 20px; line-height: 1.8; font-size: 18px; color: #333;">
+                        <li>وضع مريح:
+                            <ul style="list-style-type: disc; padding-right: 20px;">
+                                <li>اجلس أو استلقِ في مكان مريح، ويفضل أن تكون في بيئة هادئة.</li>
+                                <li>ضع يدًا على صدرك والأخرى على بطنك، أسفل القفص الصدري.</li>
+                            </ul>
+                        </li>
+                        <li>الشهيق ببطء:
+                            <ul style="list-style-type: disc; padding-right: 20px;">
+                                <li>خذ نفسًا عميقًا من أنفك، مع السماح لبطنك بالتمدد للخارج بينما يبقى صدرك ثابتًا قدر الإمكان.</li>
+                            </ul>
+                        </li>
+                        <li>الزفير ببطء:
+                            <ul style="list-style-type: disc; padding-right: 20px;">
+                                <li>زفر الهواء من خلال شفتيك (يمكن أن تكون مضمومة كما في تقنية الشفاه المضمومة) ببطء مع الضغط الخفيف على بطنك لإخراج الهواء بالكامل.</li>
+                            </ul>
+                        </li>
+                        <li>التكرار:
+                            <ul style="list-style-type: disc; padding-right: 20px;">
+                                <li>كرر العملية عدة مرات، مع التركيز على جعل الشهيق والزفير أبطأ وأعمق.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h3 style="font-size: 22px; color: #333; margin-top: 20px; margin-bottom: 10px;">فوائد التنفس الحجابي:</h3>
+                    <ul style="list-style-type: disc; padding-right: 20px; line-height: 1.8; font-size: 18px; color: #333;">
+                        <li>تحسين وظائف الرئتين وتقليل الإجهاد.</li>
+                        <li>تعزيز الاسترخاء وتخفيف القلق.</li>
+                        <li>تقليل ضيق التنفس، خاصة لمن يعانون من أمراض الجهاز التنفسي المزمنة.</li>
+                    </ul>
+                    <div style="text-align: center; margin-top: 20px;">
+                        <a href="#videos" style="font-size: 18px; font-weight: bold; color: #fff; background-color: #D12626; padding: 10px 20px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">اضغط هنا لرؤية التقنية</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</section>
+
+
+
+
 <section id="recovery-journey" style="padding: 40px; background: linear-gradient(to right, rgba(255, 126, 95, 0.4), rgba(254, 180, 123, 0.4)), url('story.webp'); background-size: cover; background-position: center; border-radius: 15px; direction: rtl; text-align: right; margin-bottom: 30px;">
     <div class="container">
         <!-- Title with Black Color -->
@@ -776,7 +827,72 @@
         </div>
     </div>
 </section>
-<!-- Team Section: Designer and Students -->
+
+
+<!-- Experience End -->
+<section id="nutrition-tips-section" style="direction: rtl; padding: 20px; background-color: #f4f4f4; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 30px;">
+    <div class="section-content" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+
+        <!-- Text Section -->
+        <div class="section-text" style="flex: 2; text-align: right; padding: 10px;">
+            <h2 class="section-heading" style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #D12626; font-size: 30px; margin-bottom: 20px;">متى أطلب المساعدة؟</h2>
+
+            <ul class="content-list" style="list-style-type: none; padding: 0; text-align: right; font-family: 'Tajawal', sans-serif; font-size: 18px; color: #333; line-height: 1.8;">
+                <li><b style="color: #D12626;">1- ضيق شديد في التنفس:</b> إذا أصبح من الصعب التنفس أثناء الراحة، يجب طلب المساعدة فورًا.</li>
+                <li><b style="color: #D12626;">2- إزرقاق الشفاه أو الأظافر:</b> ظهور لون أزرق على الشفاه أو الأظافر يعتبر علامة خطيرة تستدعي التدخل الطبي العاجل.</li>
+                <li><b style="color: #D12626;">3- زيادة السعال أو الأزيز:</b> إذا كان هناك سعال أو أزيز أكثر من المعتاد، يجب استشارة الطبيب.</li>
+                <li><b style="color: #D12626;">4- ألم في الصدر:</b> إذا كان هناك ألم في الصدر مع صعوبة في التنفس، يجب الذهاب إلى الطوارئ.</li>
+                <li><b style="color: #D12626;">5- تغيرات في البلغم:</b> مثل لون البلغم، رائحته، أو ظهور دم فيه.</li>
+                <li><b style="color: #D12626;">6- ارتباك أو عدم وضوح في التفكير:</b> إذا شعرت بالارتباك أو عدم القدرة على التركيز.</li>
+                <li><b style="color: #D12626;">7- تفاقم مفاجئ في الأعراض:</b> إذا تفاقمت الأعراض بشكل مفاجئ أو أصبحت أسوأ من المعتاد.</li>
+            </ul>
+
+            <p style="font-family: 'Tajawal', sans-serif; font-size: 18px; color: #333; line-height: 1.8; text-align: right; margin-top: 20px;">
+                في هذه الحالات، يجب الاتصال بخدمات الطوارئ على الفور (911) للحصول على العناية الطبية اللازمة. خلال انتظار الإسعاف، يمكن للمريض:
+            </p>
+
+            <ul class="content-list" style="list-style-type: none; padding: 0; text-align: right; font-family: 'Tajawal', sans-serif; font-size: 18px; color: #333; line-height: 1.8;">
+                <li>- استخدام الأدوية الموصوفة مثل جهاز الاستنشاق السريع (مثل ألبوتيرول) إذا كان متاحًا.</li>
+                <li>- الجلوس في وضع مريح (مثل الجلوس مائلًا للأمام) لتحسين التنفس.</li>
+            </ul>
+
+            <p style="font-family: 'Tajawal', sans-serif; font-size: 18px; color: #333; line-height: 1.8; text-align: right; margin-top: 10px;">
+                تأكد دائمًا من حفظ هذا الرقم في مكان يسهل الوصول إليه، خاصة إذا كنت أو أحد أفراد أسرتك يعاني من حالات صحية مزمنة قد تتطلب تدخلًا عاجلًا.
+            </p>
+        </div>
+
+        <!-- Image Section -->
+        <div class="section-image" style="flex: 1; text-align: center; margin-left: 20px;">
+            <img src="emm2.jpg" alt="Emergency Tips Image" style="max-width: 100%; height: auto; border-radius: 15px;">
+        </div>
+    </div>
+</section>
+<section id="videos" class="videos" style="direction: rtl; padding: 20px; background-color: #f9f9f9; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 30px; font-family: 'Tajawal', sans-serif;">
+    <div class="container">
+        <!-- Heading -->
+        <div class="section-heading" style="text-align: center; margin-bottom: 30px;">
+            <h2 style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #333; font-size: 40px;">الفيديوهات التعليمية</h2>
+        </div>
+
+        <!-- Video Container -->
+        <div style="display: flex; justify-content: space-between; gap: 20px;">
+            <!-- Video 1: Diaphragmatic Breathing -->
+            <div class="video-item" style="text-align: center; flex: 1;">
+                <h3 style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #D12626; font-size: 30px;">تقنية التنفس الحجابي</h3><br/>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/adW77CxtK1M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    <br>
+            <!-- Video 2: Pursed Lips Breathing -->
+            <div class="video-item" style="text-align: center; flex: 1;">
+                <h3 style="font-family: 'Tajawal', sans-serif; font-weight: 700; color: #D12626; font-size: 30px;">تقنية التنفس باستخدام الشفاه </h3>
+                <br/>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/qhcBjSirMss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <section id="team-section" style="padding: 40px; background-color: #f9f9f9; border-radius: 15px; direction: rtl; text-align: center; margin-bottom: 40px;">
     <div class="container">
         <h2 style="font-family: 'Tajawal', sans-serif; font-size: 36px; color: #333; font-weight: 700; margin-bottom: 20px;">
@@ -911,9 +1027,8 @@
         </a>
     </div><!-- /.container -->
 </section><!-- .team-section -->
-
+</section><!-- .team-section -->
 <!-- Abdullah Section -->
-
 
 
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->
